@@ -20,10 +20,3 @@ def pascal_triangle(n):
         triangle.append(new_row)
 
     return triangle
-
-# Test the function with an example:
-n = 5
-result = pascal_triangle(n)
-for row in result:
-    print(row)
-
